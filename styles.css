@@ -1,0 +1,17 @@
+.parent-div {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  
+  .child-div {
+    background-color: #f389ca;
+  }
+  
+  .child-div:hover {
+    background-color: #8e2db8;
+  }
+  
