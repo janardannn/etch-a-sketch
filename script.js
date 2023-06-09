@@ -1,18 +1,17 @@
-// const parentDiv = document.querySelector(".parent-div");
 const parentDiv = document.querySelector(".parent-div");
-parentDiv.style.display = "grid";
-parentDiv.style.gridTemplateColumns = "repeat(8, 1fr)";
-parentDiv.style.gridTemplateRows = "repeat(8, 1fr)";
 
-for (var i = 0; i < 64; i++) {
-  var newChildDiv = document.createElement("div");
-  newChildDiv.classList.add("child-div");
-  newChildDiv.addEventListener("mouseover", function() {
-    this.style.backgroundColor = "#8e2db8";
-  });
-  newChildDiv.addEventListener("mouseout", function() {
-    this.style.backgroundColor = "#f389ca";
-  });
-  parentDiv.appendChild(newChildDiv);
+for (var i = 0; i < 10; i++) {
+
+    var childDiv = document.createElement("div");
+    childDiv.setAttribute("class","row-div");
+    childDiv.style.display = "flex";
+    childDiv.style.flex = "1";
+
+    for (var k = 0; k < 10; k++) {
+        var newChild = document.createElement("div");
+        newChild.setAttribute("class", "child-div");
+        childDiv.appendChild(newChild);
+    }
+
+    parentDiv.appendChild(childDiv);
 }
-
