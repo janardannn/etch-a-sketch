@@ -13,12 +13,12 @@
 
 .child-div {
   flex : 1;
-  height : 48px;
-  width : 48px;
+  height : 46px;
+  width : 46px;
   border : 2px black solid;
-  color : #f389ca;
+  background-color : #f389ca;
 }
 
 .child-div:hover{
-  color: #8e2db8;
+  background-color: #8e2db8;
 }
