@@ -12,18 +12,21 @@ body {
 .banner {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .project-title {
   flex: 1;
   align-self: center;
   font-size: 48px;
+  margin: 0;
 }
 
 .project-description {
   align-self: center;
+  margin: 8px;
+  font-size: 0.8rem;
 }
 
 .control-and-display {
