@@ -123,19 +123,15 @@ body {
 }
 
 .row-div {
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+  margin: 0px;
 }
 
 .child-div {
-  flex : 1;
-  height : 46px;
-  width : 46px;
-  border : 2px black solid;
-  background-color : #f389ca;
+  margin: 0px;
 }
 
+/*
 .child-div:hover{
   background-color: #8e2db8;
 }
+*/
