@@ -1,4 +1,4 @@
-const parentDiv = document.querySelector(".parent-div");
+const parentDiv = document.querySelector(".display");
 
 for (var i = 0; i < 10; i++) {
     var childDiv = document.createElement("div");
